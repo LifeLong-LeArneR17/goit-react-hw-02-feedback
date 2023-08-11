@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Statistics } from "components/Statistics/Statistics";
 import { FeedbackOptions } from "components/FeedbackOptions/FeedbackOptions";
 
-class Feedback extends Component {
+export class Feedback extends Component {
     state = {
         good: 0,
         neutral: 0,
